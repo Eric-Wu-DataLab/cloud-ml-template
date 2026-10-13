@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets and large artifacts never go in git
+data/
+*.pkl
+
+# Any .env variant except the example
+.env.*
+!.env.example
